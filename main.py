@@ -1,5 +1,5 @@
 def thing():
-    return "... is working"
+    return "... is workin"
 
 if __name__ == '__main__':
     assert 'working' in thing()
