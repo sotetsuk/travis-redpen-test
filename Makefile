@@ -10,4 +10,4 @@ clean:
 	-rm -rf $(BUILDDIR)/*
 
 check:
-	redpen -c redpen-conf.xml -f markdown test.md
+	redpen -c redpen-conf.xml -f latex main.tex
