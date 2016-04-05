@@ -1,4 +1,15 @@
-language: python
-python: ["3.4"]
+jdk:
+  - oraclejdk8
+
+env:
+  - REDPEN_VER=1.5.5
+  - URL=https://github.com/redpen-cc/redpen/releases/download/redpen-$REDPEN_VER
+
 install:
-script: "python ./main.py"
+  - wget $URL/redpen-$REDPEN_VER.tar.gz
+  - tar xvf redpen-$REDPEN_VER.tar.gz
+  - export PATH=$PATH:$PWD/redpen-distribution-$REDPEN_VER/bin
+
+script:
+  - sudo apt-get update && sudo apt-get install oracle-java8-installer
+  - make check
