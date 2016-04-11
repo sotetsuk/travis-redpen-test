@@ -1,0 +1,47 @@
+単語	正訳	誤訳	エビデンス
+reinforcement learning	強化学習		
+supervised learning	教師有り学習	教師あり学習	
+controlled system	制御対象のシステム	制御系	
+learner	学習器	学習者	
+state of the art	最先端		
+controller	制御器	コントローラー	
+limitation	制約	限界	
+transition	遷移	変化	
+reward	価値		
+state	状態		
+total reward	報酬和		
+system	システム		
+Markov decision process	マルコフ決定過程,MDP		
+dynamics	ダイナミクス		
+value function	価値関数	価値函数,価値観数	
+function approximation	関数近似		
+neuro-dynamic programming	ニューロ動的計画法		
+approximate dynamic programming	近似動的計画法		
+neural network	ニューラルネットワーク		
+artificial neural network	人工ニューラルネットワーク		
+average cost problem  平均コスト問題			
+adaptive sampling	適応サンプリング		
+total expected discounted reward 	累積割引報酬和の期待値）		http://ibisml.org/archive/ibisml001/2010_IBISML01_Ueno.pdf
+linear algebra			
+calculus			
+probability theory			
+random variables			
+conditional expectations			
+Markov chains			
+statistical learning theory			
+machine learning	機械学習		
+regression	回帰		
+tabular case	テーブル形式の場合		Sutton
+tabular	テーブル形式		
+main memory メインメモリ			
+value iteration			
+TD			
+LSTD			
+LSPE			
+policy	方策		
+direct methods	直接的な方法		
+policy iteration			
+actor-critic			
+direct policy improvement			
+environment			
+optimism in the face of uncertainty			
