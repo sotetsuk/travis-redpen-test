@@ -8,10 +8,12 @@ env:
   - URL=https://github.com/redpen-cc/redpen/releases/download/redpen-1.4.7
 
 install:
-  - wget $URL/redpen-1.4.7.tar.gz
-  - tar xvf redpen-1.4.7.tar.gz
-  - export PATH=$PATH:$PWD/redpen-distribution-1.4.7/bin
+#  - wget $URL/redpen-1.4.7.tar.gz
+#  - tar xvf redpen-1.4.7.tar.gz
+#  - export PATH=$PATH:$PWD/redpen-distribution-1.4.7/bin
+  - docker pull thii/platex
 
 script:
-  - sudo apt-get update && sudo apt-get install oracle-java8-installer
-  - make check
+#  - sudo apt-get update && sudo apt-get install oracle-java8-installer
+#  - make check
+  - docker run --rm -v `pwd`:/latex thii/platex build example.tex
