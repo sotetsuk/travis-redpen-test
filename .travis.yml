@@ -21,4 +21,4 @@ install:
 script:
 #  - sudo apt-get update && sudo apt-get install oracle-java8-installer
 #  - make check
-  - docker run --rm -v `pwd`:/latex thii/platex build example.tex
+  - docker run --rm -v `pwd`:/latex thii/platex build test.tex
